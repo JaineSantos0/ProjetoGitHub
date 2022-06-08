@@ -34,6 +34,11 @@ public class Programa {
 
         for (int i = 0; i < digitos; i++) {
             System.out.println(numeroS.charAt(i));
+            int numeroAtual = numeroS.charAt(i);
+            if (numeroAtual % 2 == 0) {
+                par++;
+            }
         }
+        System.out.println("Números pares: " + par);
     }
 }
