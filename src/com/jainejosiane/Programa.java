@@ -29,5 +29,11 @@ public class Programa {
             numeroS = sc.next();
             digitos = numeroS.length();
         }
+
+        int par = 0;
+
+        for (int i = 0; i < digitos; i++) {
+            System.out.println(numeroS.charAt(i));
+        }
     }
 }
